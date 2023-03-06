@@ -1,0 +1,100 @@
+*{
+margin:0;
+box-sizing: border-box;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    width:30%;
+    height:300px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    background-color:royalblue;
+    margin-top: 4%;
+    border-radius: 15px;
+}
+
+form h2{
+    padding-top: 20px;
+    color:rgb(234, 242, 8);
+}
+#boyName,#girlName{
+    width: auto;
+    display: block;
+    text-align: center;
+    padding:8px 10px;
+    margin:30px auto;
+}
+
+
+form button{
+    padding:8px 12px;
+    background-color: #07ffcd;
+    border-radius:10px;
+    border-color:transparent ;
+    font-size: 16px;
+    font-family:monospace;
+    font-weight: bold;
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color:rgb(20, 4, 245);
+    color:white;
+}
+
+form p{
+    font-size: 10px;
+    text-align: right;
+    margin-top:36px;
+    margin-right: 8px;
+    color:rgb(67, 94, 94);
+}
+
+#display{
+    background-color:hwb(161 0% 0%);
+    width:25%;
+    height: 230px;
+    margin:auto;
+    text-align: center;
+    margin-top:5%;
+    border-radius: 6%;
+}
+
+#display h2{
+    padding:10px;
+    color:rgb(219, 6, 6);
+}
+#display h3{
+    margin:12px auto;
+    font-size: 20px;
+}
+#display h3:nth-child(2){
+    color:blue;
+}
+#display h3:nth-child(3){
+    color:rgb(208, 0, 255);
+}
+#display h3:nth-child(4){
+    color:black;
+    font-weight: bold;
+}
+#display h3:nth-child(5){
+    color:rgb(124, 9, 246);
+}
+
+
+@media (min-width:300px) and (max-width:700px){
+
+    form{
+        width:70%;
+    }
+
+    #girlName, #boyName{
+        width:60%;
+    }
+    #display{
+        width: 70%;
+    }
+}
