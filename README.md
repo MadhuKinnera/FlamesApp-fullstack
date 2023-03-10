@@ -39,4 +39,4 @@ Working of the application
 [![flames-working.png](https://i.postimg.cc/RCHX0xnY/flames-working.png)](https://postimg.cc/Cdwjvt7C)
 
 
-Thank You : Please visit the application :  https://flameschecker.netlify.app/
+Thank You <3 Please visit the application :  https://flameschecker.netlify.app/
