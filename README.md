@@ -1,6 +1,6 @@
 # FlamesApp
 
-  it is a game to find relation between two persons 
+ - it is a game to find relation between two persons 
 
 # Tech Stack
 ----------
